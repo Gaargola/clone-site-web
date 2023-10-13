@@ -7,3 +7,12 @@
   color: CanvasText;
   color-scheme: light;
 }
+@font-face {
+  font-family: "YoungSerif-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url('/font/YoungSerif-Regular.ttf') format('truetype');
+}
+body{
+  font-family: "YoungSerif","Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
