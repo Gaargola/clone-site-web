@@ -13,8 +13,20 @@
 }
 
 .slider .slide {
+  position: relative;
   width: 400px;
   margin-right: 40px;
+}
+
+.slider .slide-text{
+  position: absolute;
+  top: 88%;
+  left: 10%;
+  border: #fff solid 1px;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: x-small;
 }
 
 .slider .slide img {

@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Dribble - Discover the world of design',
+  title: 'Fribbblee - Discover the world of design',
   description: 'Find top design inspiration and inspiration from the world of design',
   icons: {
     icon: '/favicon.ico',

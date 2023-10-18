@@ -21,7 +21,7 @@ export default function NavBar() {
           <Link href="#" className="font-sans font-medium hover:text-[#565564]">Go Pro</Link>
         </li>
       </ul>
-        <Image src="/logo.png" alt="logo" className="max-w-auto cursor-pointer ease-in duration-100 hover:invert-[40%] " layout="fixed" height={300} width={100}/>
+        <Image src="/logo.svg" alt="logo" className="max-w-auto cursor-pointer ease-in duration-100 mt-10 hover:invert-[40%] " layout="fixed" height={300} width={100}/>
       <ul className="flex mt-10 ml-[25%]">
         <li className="mr-4">
           <Link href="#" className="font-sans font-medium hover:text-[#565564]">Log in</Link>
