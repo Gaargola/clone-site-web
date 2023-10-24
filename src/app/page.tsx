@@ -1,6 +1,8 @@
 import NavBar from "@/components/NavBar";
 import Title from "./_components/Title";
-import Slider from "@/components/Slider";
+import Slider from "@/components/Slider/Slider";
+import Portfolio from "@/components/Ui/Portfolio";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
           </button>
         </div>
       </section>
+      <Portfolio />
+      <Footer />
     </main>
   );
 }
