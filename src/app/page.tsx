@@ -12,12 +12,12 @@ export default function Home() {
       <Slider />
       <section className="flex justify-center">
         <div className="ml-10 mt-10">
-          <h1 className="text-[90px] font-light max-w-xl text-[#0D0C22]">
-            When only the best talent will do
+          <h1 className="text-[90px] font-light max-w-xl text-[#0D0C22] md:text-[60px] md:max-w-lg">
+            When only the best talent will do.
           </h1>
         </div>
         <div className="ml-10 mr-[5rem] mt-[11%] max-w-xl">
-          <p className="font-normal text-[20px] max-w-lg">
+          <p className="font-normal text-[20px] max-w-lg md:text-[20px]">
             See why over 60,000 leading brands and business use Fribbbblee to
             attract, engage, and hire their design talent.
           </p>
