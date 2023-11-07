@@ -2,7 +2,7 @@ function Portfolio() {
   return (
     <section className="flex justify-center bg-[#FFDA79] p-[150px] mt-[120px]">
       <div className="flex flex-col items-center m-auto">
-        <h1 className="text-[64px] tracking-wider font-serif font-medium text-center max-w-xl text-[#0d0c22]">
+        <h1 className="text-[64px] tracking-wider font-serif font-medium text-center max-w-xl text-[#0d0c22] max-sm:text-3xl">
           Find your next designer today
         </h1>
         <div className="flex flex-col mt-10">

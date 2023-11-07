@@ -1,13 +1,13 @@
 function Title() {
   return (
     <section className="flex flex-col mt-[4rem]">
-      <p className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-800 px-4 py-2 rounded-full text-white text-center mx-auto">
+      <p className="bg-gradient-to-r block from-indigo-500 via-purple-500 to-pink-800 px-4 py-2 rounded-full text-white text-center mx-auto max-sm:hidden">
         Over 3 million people have already joined the platform!
       </p>
-      <h1 className="text-7xl font-serif font-medium text-center mt-10 max-w-2xl mx-auto text-[#0D0C22]">
+      <h1 className="text-7xl font-serif font-medium text-center mt-10 max-w-2xl mx-auto text-[#0D0C22] max-sm:text-5xl">
         Hire the worlds top creative talent.
       </h1>
-      <p className="text-center mt-10 font-medium text-xl">
+      <p className="text-center mt-10 font-medium text-xl max-sm:text-base max-sm:mt-8">
         Connect with a community of millions of top-rated designers & agencies
         around the world.
       </p>

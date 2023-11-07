@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <footer className="flex justify-between m-10">
-      <ul className="flex ml-10">
+    <footer className="flex justify-between m-10 max-md:flex-col max-md:justify-center max-md:items-center max-md:text-center">
+      <ul className="flex ml-10 max-md:ml-0">
         <li className="mr-4">
           <a href="#" className="text-[#8B8A95] text-sm">
             ©2023 by Mauro
@@ -23,7 +23,7 @@ function Footer() {
           </a>
         </li>
       </ul>
-      <ul className="flex mr-10">
+      <ul className="flex mr-10 max-md:mt-4 max-md:mr-0 max-sm:hidden">
         <li className="">
           <a href="#" className="text-[#8B8A95] text-sm">
             Jobs

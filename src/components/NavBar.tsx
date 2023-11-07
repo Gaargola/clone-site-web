@@ -3,12 +3,12 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav className="flex  justify-around md:flex-row md:justify-center">
-      <ul className="flex mt-10 space-x-4 md:flex-row md:space-x-8">
+    <nav className="flex  justify-around md:flex-row md:justify-center max-md:flex-col max-md:items-center">
+      <ul className="flex mt-10 space-x-4 md:flex-row md:space-x-8 max-sm:flex-col max-sm:items-center max-sm:mt-4 ">
         <li className="">
           <Link
             href="#"
-            className="font-sans font-medium hover:text-[#565564] md:text-sm"
+            className="font-sans font-medium hover:text-[#565564] md:text-sm "
           >
             Find talent
           </Link>
@@ -46,7 +46,7 @@ export default function NavBar() {
           </Link>
         </li>
       </ul>
-      <ul className="flex mt-10 ml-[25%]">
+      <ul className="flex mt-10 ml-[25%] max-md:m-auto max-md:mt-10 ">
         <li className="mr-4">
           <Link
             href="#"
